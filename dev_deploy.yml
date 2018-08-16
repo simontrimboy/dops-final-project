@@ -1,0 +1,7 @@
+version: '3.4'
+services:
+  web:
+    build: .
+    image: dev/alpine${version}
+    ports:
+    - 8080:8080
